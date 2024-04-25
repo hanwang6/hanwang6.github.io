@@ -1,5 +1,6 @@
 .portrait-wrapper {
   display: contents;
+  flex-basis: calc(33.33% - 50px);
 }
 
 .portrait {
@@ -12,7 +13,6 @@
   margin: 50px;
   width: 200px;
   max-width: calc(100% - 50px - 50px);
-  flex-basis: calc(33.33% - 50px);
   text-decoration: none;
 }
 
